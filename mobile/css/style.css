@@ -1,0 +1,55 @@
+body {
+    background-color: floralwhite;
+}
+body {
+    font-family: helvetica,arial,verdana, sans-serif;
+    color:#111111;
+    font-size: 1em;    
+}
+h1 {
+    font-family: helvetica,arial,verdana, sans-serif;
+    color:darkslateblue;
+        font-size:2em;
+            margin:0.1px;
+}
+h2 {
+    font-family: helvetica,arial,verdana, sans-serif;
+    color:darkblue;
+        font-size:2em;
+    margin:0.1px;}
+   
+h4 {
+    font-family: helvetica,arial,verdana, sans-serif;
+    color:darkblue;
+        font-size:1em;
+    margin:0.1px;}
+
+#navigationlabel{
+    font-size: 2.5em;
+    margin-left: 40%;
+
+}
+nav a {
+        display:none;
+        text-decoration:none;
+        padding:0.5em;
+        color:#53a5eb;
+}
+nav label {
+        padding:0.4em;
+        display:block;
+}
+#m {
+        display:none;
+    }
+#m:checked ~ a {
+        display:block;
+        text-align: center;
+}
+
+    .designpic img {
+    width:80%;
+    height: auto;
+    margin-left:10%;
+    margin-top: 5%;
+}

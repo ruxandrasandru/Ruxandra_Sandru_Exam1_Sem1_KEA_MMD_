@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond');
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box}
+
+header 
+{
+    background-color:#303A5C;
+    justify-content: center;
+    
+}
+ul {
+    list-style-type: none;
+    
+    padding: 0;
+    overflow: hidden;
+    border: 0px solid #ffffff;
+    background-color:#303A5C;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+
+li a.active {
+    color: white;
+    background-color:#8298a7;
+}
+
+/*Burger menu*/
+label[for=menu]{
+    color:#ffffff;
+    float:right;
+    font-size: 40px;
+    margin:auto;
+    margin-bottom:auto;
+    margin-right: 2%;
+
+}
+#menu{
+    display: none;
+
+}
+
+nav 
+{
+    display: none;
+    font-size:10%;
+    
+}
+
+#menu:checked ~nav
+{
+    display:block;
+    
+}
+
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.color{
+    color:#5DC4E5;
+}
+.pin{
+    display: block;
+    margin: auto;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color:#5DC4E5;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+button:hover {
+    opacity:1;
+}
+
+
+
+/* Float cancel and login buttons and add an equal width */
+.loginbtn {
+  display: block;
+  margin: auto;
+  width: 50%;
+  opacity: 0.9;
+}
+
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* class - logo */
+.logo {
+    display:inline-block;
+    vertical-align: top;
+    width: 30%;
+    height: auto; 
+    margin-top: auto;
+    
+}
+
+.profile {
+    display:block;
+    vertical-align: top;
+    width: 30%;
+    height: auto; 
+    margin: auto;
+    
+}
+
+/* class - logo */
+.eng {
+    display:inline-block;
+    vertical-align: top;
+    width: 10%;
+    height: 5%; 
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 45%;
+    
+}
+.schedule{
+    display:block;
+    vertical-align: top;
+    width: 30%;
+    height: auto; 
+    margin: auto;  
+}
+
+.schedule2{
+    display:block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%; 
+    margin: auto;
+   
+}
+
+lectures{
+    display:block;
+    vertical-align: top;
+    width: 100%;
+    height: 100%; 
+    margin: auto;
+}
+
+.buttontoday {
+  background-color: #EA4E43;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.buttonschedule {
+  background-color: #5DC4E5;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.buttonchat {
+  background-color:#EB5C8D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.buttonlectures {
+  background-color:#1366B0;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+
+.buttonexam {
+  background-color:#F5A8A1;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display:block;
+  font-size: 16px;
+  margin: auto;
+  cursor: pointer;
+}
+/* profile page*/
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.editprof {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+/*filter table for schedule*/ 
+
+#myInput {
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  margin-bottom: 12px;
+}
+
+#myTable {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+  font-size: 18px;
+}
+
+#myTable th, #myTable td {
+  text-align: left;
+  padding: 12px;
+}
+
+#myTable tr {
+  border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header, #myTable tr:hover {
+  background-color: #f1f1f1;
+    
+ }
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc; 
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+
+@supports (display: grid) {
+
+  .video-grid {
+    display: grid;
+    width: 80%;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    margin: 0 -2em;
+  }
+  
+  .video-item {
+    margin-top: 0;
+  }
+  
+  .video-item video {
+    border: 0.125rem solid transparent;
+     align-content: center;
+  }
+
+  .video-item:nth-child(1) {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+  }
+
+  .video-item:nth-child(2) {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+  }
+
+  .video-item:nth-child(3) {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+  }
+  
+  .video-item:nth-last-child(-n+1):first-child,
+  .video-item:nth-last-child(-n+1):first-child ~ .video-item {
+    grid-column: 1 / 3;
+    grid-row: 1 / 3;
+  }
+}
+
+.container {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.container img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.container img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+.animated {
+  padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color:#5DC4E5;
+  border: none;
+  border-radius: 25px;
+  box-shadow: 0 9px #999;
+}
+
+.animated:hover {background-color: #5DC4E5}
+
+.animated:active {
+  background-color: #5DC4E5;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/* Change styles for cancel button and login button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .loginbtn {
+       width: 100%;
+    }
+}
+
+
